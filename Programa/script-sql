@@ -1,0 +1,9 @@
+create database Criptografia;
+
+use Criptografia;
+
+create table senha (
+id	int primary key auto_increment,
+senha	varchar(200) not null
+);
+
